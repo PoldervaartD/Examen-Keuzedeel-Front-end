@@ -1,0 +1,353 @@
+<!doctype html>
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- Style -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+
+  <!-- Fonts-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+
+  <title>Plates before Dates</title>
+  <link rel="icon" href="images/icon.png">
+
+</head>
+
+<body class="productpagina">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <img src="/images/icon.png" alt="" width="50" height="50">
+
+      <a href="index.html" class="navbar-brand">Plates before Dates</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  active" href="producten.html">Producten</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Producten Cards-->
+  <section id="menu" class="bf-light mt-5">
+    <div class="container-lg">
+      <div class="row my-5 align-items-center justify-content-center">
+        <div class="col-xl-3 col-lg-3 col-md-6 col-12 mb-4">
+          <div class="card h-100">
+            <img src="images/potjewhey.jpg" class="card-img-top" alt="whey">
+            <div class="card-body">
+              <h4 class="card-title">Tha Whey</h4>
+              <p class="lead card-subtitle">Proteïnepoeder in een pot van 1kg.</p>
+            </div>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#thawhey">
+              Klik hier voor meer informatie
+            </button>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-3 col-md-6 col-12 mb-4">
+          <div class="card h-100">
+            <img src="images/proteinplants.jpg" class="card-img-top" alt="vegan">
+            <div class="card-body">
+              <h4 class="card-title">Tha Whey Vegan</h4>
+              <p class="lead card-subtitle">Vegan Proteïne in een pot van 1kg.</p>
+            </div>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#thawheyvegan">
+              Klik hier voor meer informatie
+            </button>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-3 col-md-6 col-12 mb-4">
+          <div class="card h-100">
+            <img src="images/pre.jpg" class="card-img-top" alt="prebeuker">
+            <div class="card-body">
+              <h4 class="card-title">Pre-Beuker</h4>
+              <p class="lead card-subtitle">Pre-Workout in een pot van 300g.</p>
+            </div>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#prebeuker">
+              Klik hier voor meer informatie
+            </button>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-3 col-md-6 col-12 mb-4">
+          <div class="card h-100">
+            <img src="images/gainer.jpg" class="card-img-top" alt="Gainer">
+            <div class="card-body">
+              <h4 class="card-title">Bulkpotje</h4>
+              <p class="lead card-subtitle">Weightgainer in een pot van 1kg.</p>
+            </div>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bulkpotje">
+              Klik hier voor meer informatie
+            </button>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-3 col-md-6 col-12 mb-4">
+          <div class="card h-100">
+            <img src="images/amino.jpg" class="card-img-top" alt="Amino">
+            <div class="card-body">
+              <h4 class="card-title">Aminoz</h4>
+              <p class="lead card-subtitle">Aminozuren in een pot van 300g.</p>
+            </div>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#aminoz">
+              Klik hier voor meer informatie
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modals -->
+  <div class="modal fade" id="thawhey" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Tha Whey Proteïnepoeder</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            Proteine poeder is een supplement die ervoor zorgt dat je je eiwit doel makkelijker kan halen. Per dag wil je ongeveer 2x je lichaamsgewicht in grammen aan proteine binnenkrijgen. Dit kan moeilijk zijn als je alleen normale voeding eet.<br>
+          <br>
+            Per dosering (32.8g)<br>
+            <br>
+            Energie 505kJ/119kcal<br>
+            Vetten 1,0g (waarvan verzadigd) 0,6g<br>
+            Koolhydraten 2,7g (waarvan suikers) 1,2g<br>
+            Eiwitten 25g<br>
+            Zout 0,22g<br>
+            <br>
+            Werkzame bestanddelen<br>
+            L-leucine 3,2g<br>
+            L-isoleucine 2,0g<br>
+            L-valine 1,8g<br>
+            BC30® 1 miljard kfe<br>
+            <br>
+            Verkrijgbaar in de smaken Aardbei, Banaan, Chocolade, Vanille, Mokka en Salted Caramel.
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="thawheyvegan" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Tha Whey Vegan Proteïnepoeder</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Proteine poeder is een supplement die ervoor zorgt dat je je eiwit doel makkelijker kan halen. Per dag wil je ongeveer 2x je lichaamsgewicht in grammen aan proteine binnenkrijgen. Dit kan moeilijk zijn als je alleen normale voeding eet. Dit is een Vegetarisch product volledig gebaseerd op plantaardige eiwitten.<br>
+          <br>
+          Per dosering (32.8g)<br>
+          <br>
+          Energie 505kJ/119kcal<br>
+          Vetten 1,0g (waarvan verzadigd) 0,6g<br>
+          Koolhydraten 2,7g (waarvan suikers) 1,2g<br>
+          Eiwitten 25g<br>
+          Zout 0,22g<br>
+          <br>
+          Werkzame bestanddelen<br>
+          L-leucine 3,2g<br>
+          L-isoleucine 2,0g<br>
+          L-valine 1,8g<br>
+          BC30® 1 miljard kfe<br>
+          <br>
+          Verkrijgbaar in de smaken Aardbei, Banaan, Chocolade, Vanille, Mokka en Salted Caramel.
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="prebeuker" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Pre-Beuker</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+        </div>
+        <div class="modal-body">
+          Dit is een pre-workout. Dit zorgt voor een boost tijdens je training. Dit supplement is volledig op natuurlijke basis dus geen kunstmatige troep. Het zorgt ervoor dat je aderen meer open gaan staan waardoor er meer zuurstof in je spieren kan komen.<br>
+          <br>
+          Per dosering (15.5g):<br>
+          <br>
+          L-citrulline 4g<br>
+          Creatinemonohydraat 3g<br>
+          Beta-alanine 2g<br>
+          GlycerSize™ (65% glycerolpoeder) 1g<br>
+          Watervrije betaïne 1g<br>
+          L-tyrosine 750mg<br>
+          Cafeïne 200mg<br>
+          Vitamine C 75mg (94%*)<br>
+          Senactiv® 50mg<br>
+          AstraGin® 25mg<br>
+          IJzer 6,0mg (43%*)<br>
+          Niacine 3,0mg (19%*)<br>
+          BioPerine® 2,5mg<br>
+          Vitamine B1 1,1mg (100%*)<br>
+          Vitamine B12 15μg (600%*)<br>
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="bulkpotje" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Bulkpotje Weightgainer</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Per portie 145kJ/752kcal<br>
+          <br>
+          Dit supplement zorgt ervoor dat je voor het "Bulken" meer kcal binnen krijgt zodat je spieren op kan bouwen.<br>
+          <br>
+          Vet 10g (waarvan verzadigd) 4.1g<br>
+          Koolhydraten 110g (waarvan suikers) 2.9g<br>
+          Vezels 2.5g<br>
+          Eiwitten 55g<br>
+          Zout 0.48g<br>
+          <br>
+          Verkrijgbaar in de smaken Aardbei Milkshake, Banaan, Chocolade Brownie, Mokka en Salted Caramel.
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="aminoz" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Aminoz Aminozuren</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Amino zuren bevorderen de opslag en vervoer van voedingstoffen door je lichaam. Het zorgt ook voor meer energie. Dus je kan beter je eiwitten en andere nuttige voedingsstoffen opnemen als je aminozuren gebruikt.<br>
+          <br>
+          Per portie (10g)<br>
+          <br>
+          Gemicroniseerde L-leucine 1,5 g<br>
+          Gemicroniseerde L-glutamine 1 g<br>
+          Gemicroniseerde L-isoleucine 750 mg<br>
+          Gemicroniseerde L-valine 750 mg<br>
+          Gemicroniseerde L-lysine 200 mg<br>
+          Gemicroniseerde L-threonine 200 mg<br>
+          Gemicroniseerde L-histidine 200 mg<br>
+          Gemicroniseerde L-methionine 200 mg<br>
+          Gemicroniseerde L-citruline 500 mg<br>
+          Gemicroniseerde L-tyrosine 500 mg<br>
+          Gemicroniseerde taurine 500 mg<br>
+          Gemicroniseerde L-arginine 500 mg<br>
+          Gemicroniseerde L-theanine 200 mg<br>
+          Groene koffie-extract ​ 140 mg<br>
+          Natuurlijke cafeïne 100 mg<br>
+          Groene thee-extract 78 mg<br>
+          Vitamine C 24 mg (*30%)<br>
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <!--Footer-->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>Bedrijf</h4>
+          <ul>
+            <li><a href="bronnen.html">Bronnen</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Openingstijden onze gym</h4>
+          <p style="text-align:left;">Maandag: 8:00 tot 22:00</p>
+          <p style="text-align:left;">Dinsdag: 8:00 tot 22:00</p>
+          <p style="text-align:left;">Woensdag: 8:00 tot 22:00</p>
+          <p style="text-align:left;">Donderdag: 8:00 tot 22:00</p>
+          <p style="text-align:left;">Vrijdag: 8:00 tot 22:00</p>
+          <p style="text-align:left;">Zaterdag: 8:00 tot 22:00</p>
+          <p style="text-align:left;">Zondag: 8:00 tot 22:00</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <p style="text-align:left;">Email: info@platesbeforedates.com</p>
+          <p style="text-align:left;">Telefoon: 06 12345678</p>
+          <p style="text-align:left;">Deze website is gemaakt voor een examen van school. Links naar de bronnen kun u
+            vinden onder "Bedrijf".</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Volg ons</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <div>
+
+              <!-- Recensies -->
+              <link rel="style.css"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.mincss%22%3E">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
